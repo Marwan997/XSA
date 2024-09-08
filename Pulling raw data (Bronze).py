@@ -22,11 +22,11 @@ df = spark.read.format("delta").load("dbfs:/user/hive/warehouse/bronze_tweets.db
 
 # COMMAND ----------
 
-consumer_key = "buvR1ZAQAgLE2K1lKllLUeKc0"
-consumer_secret = "1kLmNLdJ45Cq69JD99zg2Mhsj1qytUdHnV1LAql8ES5yjK1LRh"
-access_token = "1102561094143492096-egRhRF60iwZdR6JCt0yyS9Skh1Eo6n"
-access_token_secret = "YjFlGlJEdwhyiwiqWuctfg4IVNbe4noCOm0CNTNjpCsAO"
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAJtApAEAAAAAJD8GQaV2f4ppLjafysgPX3BTCfM%3DqZmNDYzhnhexQ2IpdAD6X1w5PFSxqliFcA0UC8g5UgFhjYWKZ0"
+consumer_key = "consumer_key"
+consumer_secret = "consumer_secret"
+access_token = "access_token"
+access_token_secret = "access_token_secret"
+bearer_token = "bearer_token"
 
 # COMMAND ----------
 
